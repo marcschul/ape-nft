@@ -1,0 +1,307 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Roboto&display=swap');
+
+body {
+  background: black;
+}
+
+.mainbg {
+  background: #121212;
+}
+
+.join-our-discord {
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+}
+
+.nav-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.ape-parent {
+  position: relative;
+  top: -60px;
+  left: 0; 
+}
+
+.ape-circle {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  z-index: 0;
+  transform: rotate(-7.06deg);
+}
+
+.exclusive-parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.exclusive-text-move {
+  left: -50px;
+  top: -30px;
+}
+
+.exclusive-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.newest-nft-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  font-weight: 500;
+  background: linear-gradient(60deg, #00DBDE 0%, #FC00FF 100%);
+  color: transparent;
+  background-clip: text;
+  position: relative;
+  top: -20px;
+}
+
+.bc-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+}
+
+.purple-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  color: #AC32E4;
+}
+
+.input-border {
+  border-width: 2.72272px;
+  border-color: #7918F2;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.register {
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #FFF;
+}
+
+.collections {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  }
+
+.collections-grad {
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 50%, #4801FF 100%);
+  color: transparent;
+  background-clip: text;
+}
+
+.collections-description-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  width: 92%;
+}
+
+.ape-card-background {
+  background: radial-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%);
+  backdrop-filter: blur(38.2676px);
+}
+
+.ape-card-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.0853px;
+  color: white;
+}
+
+.ape-card-points {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.4089px;
+}
+
+.ape-card-bid {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.3095px;
+  color: #A7A7A7;
+}
+
+.ape-card-eth {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.6134px;
+  color: white;
+}
+
+.golden-ticket-bg {
+  background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+}
+
+.golden-guests-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  color: #E2C668;
+}
+
+.golden-guests-desc-txt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.gt-join-us {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #7918F2 48%, #4801FF 100%);
+  height: 80px;
+  width: 638px;
+  border-width: 3px;
+  border-color: black;
+  box-shadow: -10px -5px #000;
+}
+
+.gt-position {
+  position: relative;
+  top: -80px;
+  left: -180px;
+}
+
+.get-aped {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 84px;
+  text-align: center;
+  background: linear-gradient(60deg, #00DBDE 0%, #FC00FF 100%);
+  color: transparent;
+  background-clip: text;
+}
+
+.sign-up {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #FFFFFF;
+  border-color: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+  border: 1px;
+}
+
+.sign-up-border {
+  position: relative;
+  top: -10px;
+  left: 480px;
+}
+
+.footer-border {
+  border-color: #818181;
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #767676;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 585px;
+  height: 585px;
+  background: #AC32E4;
+  opacity: 10%;
+  border-radius: 50%;
+  top: 130px;
+  left: -200px;
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 469px;
+  height: 469px;
+  background: #AC32E4;
+  opacity: 20%;
+  border-radius: 50%;
+  top: -130px;
+  left: 320px;
+}
+
+.line1 {
+  position: relative;
+  width: 13.82px;
+  height: 33.93px;
+  transform: rotate(0deg);
+  top: 110px;
+  left: 440px;
+}
+
+.line2 {
+  position: relative;
+  width: 13.82px;
+  height: 33.93px;
+  transform: rotate(36.08deg);
+  top: 95px;
+  left: 470px;
+}
+
+.line3 {
+  position: relative;
+  width: 13.82px;
+  height: 33.93px;
+  transform: rotate(70.26deg);
+  top: 90px;
+  left: 480px;
+}
+
+.dots1 {
+  position: absolute;
+  top: -90px;
+  left: 700px;
+}
+
+.dots2 {
+  position: absolute;
+  top: 1010px;
+  left: 0px;
+}
